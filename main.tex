@@ -1,0 +1,102 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage[version=4]{mhchem}
+\usepackage{siunitx}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, citecolor=green, urlcolor=magenta}
+
+
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{main.bib}
+
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+
+\author{Yuna Katsuyama }
+\date{\today}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \begin{minipage}{0.49\textwidth}
+        \raggedright
+        \includegraphics[width=0.5\textwidth]{logo.png}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.49\textwidth}
+        \raggedleft
+        \includegraphics[width=0.3\textwidth]{iupLogo2.png}
+    \end{minipage}
+
+    \vspace{3.5cm}
+    
+    {\LARGE \textbf{A Study on Super-Resolution Neural Networks for Anthropogenic Emission Data}}\\[2cm]
+    
+    {\Large \textbf{Preparatory Project
+    }}\\[1cm]
+    \vspace{0.5cm}
+    {\large submitted by}\\[0.5cm]
+    
+    {\Large \textbf{Yuna Katsuyama}}\\
+    \vspace{2cm}
+    
+    \rule{\textwidth}{0.4mm}\\[0.5cm]
+    
+    {\large Supervisor}\\[0.3cm]
+    {\large Prof. Mihalis Vrekoussis, Dr. Alex Poulidis, Santiago Parraguez Cerda}\\[0.5cm]
+    
+    \rule{\textwidth}{0.4mm}\\[0.5cm]
+    \vspace{0.3cm}
+    {\large University of Bremen}\\
+    {\large Institute of Environmental Physics}\\[1.5cm]
+    
+    {\large Date: 20.02.26}
+    
+\end{titlepage}
+
+\thispagestyle{empty}
+\clearpage
+
+\begin{abstract}
+		Air pollution remains a major global health and environmental challenge, particularly in rapidly urbanizing regions where high-resolution emission data are scarce. With my proposed project I aim to develop a generalized, transferable framework for downscaling coarse global emission inventories to urban-scale resolution (1 km) using conditional Generative Adversarial Networks (cGANs). By learning spatial patterns from auxiliary data (for example road networks, land use, and night-time lights) the model will enable emission downscaling in any region, even without region-specific training. The downscaled emissions will be integrated into a chemistry transport model (e.g., ICON-ART) to simulate urban air quality, identify key pollution sources, and evaluate mitigation strategies for three main target cities, Tokyo (Japan), Hamburg (Germany), and Bangkok (Thailand). The outcome will be an open-source, globally applicable tool that improves the accuracy of air quality modeling, benefiting both high- and low-income countries. My research will address a critical data gap, support evidence-based policy, and advance equitable access to environmental science.
+		
+\end{abstract}
+	
+\tableofcontents
+\newpage
+
+\section{Introduction}
+
+I am tired (\cite{WHO:2024})
+I need coffee (\cite{Breiman1996})
+
+\section{Methods}
+
+
+\section{Preliminary Results}
+
+\section{Discussion}
+
+\section{Conclusion}
+
+
+
+
+
+\printbibliography
+
+\end{document}

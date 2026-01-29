@@ -84,16 +84,35 @@
 \section{Introduction}
 \subsection{Air pollution}
 % People die due to air pollution. (health risks), WHO
+Air pollution causes serious health problems. In 2019, air pollution caused about 6.7 million deaths.  Air pollutants affect the cardiovascular, neurological, respiratory and other organ systems and they increases the risk of death from cardiovascular and respiratory disease, and lung cancer.
+The major health-damaging air pollutants are particulate matter (PM2.5 and PM10), ozone, nitrogen dioxide, sulfur dioxide and carbon monoxide. (\cite{WHO:2024})
+
+In order to reduce the health impact, WHO published Air Quality Guidelines (AQG) that is the safe levels of pollutant to human health in 1987 and updated them in 2005 and 2021.
+(\cite{WHO:2021})
+
 % history of air pollution 
 In the past, two big air pollution events which are London smog in 1952 and Los angels smog from 1940s to 1970s occurred. 
+Air pollution has been dealt with for centuries and has the air quality has greatly improved. 
+
+
 % Air quality guidline, and current situation (figure from Fowler )
-WHO published air quality guidline. 
-Most of global population live in the air condition which is worse than AQG. 
-Figure which I use on the presentation 
+However, as shown in Figure \ref{fig:air_pollution}, a large proportion of the population still lives in the regions where air quality is worse than the AQG values.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\columnwidth]{AQG.jpg}
+    \caption{Distributions of the population as a function of annual (2013) average ambient PM2.5 concentration for the world's 10 most populous countries and the rest of the world. Dashed vertical lines indicate World Health Organization Interim Targets (IT) and the Air Quality Guideline (AQG). Reproduced from \cite{Fowler:2020}.}
+    \label{fig:air_pollution}
+\end{figure}
+
+Furthermore, while air quality has improved markedly in high-income countries over this period, it has generally deteriorated in most low- and middle-income countries, in line with large-scale urbanization and economic development. (\cite{WHO:2021})
+This indicates that addressing air pollution is particularly urgent in developing countries.
+
+
+
 (different reason of air pollution , out door , in door ) 
 % Air pollutant (NOx, PM, ozone, SO2, CO, VOC, NH3)
-According to ¥cite{folberth2015megacities}, the 26 largest cities account for significant shares of global emissions of greenhouse gases, 12¥% of carbon dioxide (CO$_2$), 7¥% of methane (CH$_4$), and large fractions of major air pollutants such as nitrogen oxides (NO$_X$; 4.6¥%), sulphur dioxide (SO$_2$; 5.3¥%), Black Carbon (BC; 3.8¥%) and Volatile Organic Compounds (VOCs; 4.8¥%)
-Air pollutants can be grouped into two, primary and secondary pollutanst. Primary pollutants are emitted from source and secondary pollutants are chemically produced  from the primary pollutant. 
+According to \cite{folberth2015megacities}, the 26 largest cities account for significant shares of global emissions of greenhouse gases, 12\% of carbon dioxide (CO$_2$), 7\% of methane (CH$_4$), and large fractions of major air pollutants such as nitrogen oxides (NO$_X$; 4.6\%), sulphur dioxide (SO$_2$; 5.3\%), Black Carbon (BC; 3.8\%) and Volatile Organic Compounds (VOCs; 4.8\%)
+Air pollutants can be grouped into two, primary and secondary pollutants. Primary pollutants are emitted from source and secondary pollutants are chemically produced  from the primary pollutant. 
 
 NO$_X$ is a mixture of NO and NO$_2$. It is a primary pollutant and it mainly emitted from human activities. High-temperature combustion such as transportation, power plants and industry produces ozone from N$_2$ and O$_2$.  
 NO$_X$ has a short life time from one day to few days. 
@@ -124,9 +143,17 @@ In my preparatory project, I aim to make initial result of emission downscaling 
 
 
 \section{Methods}
-\subsection{Machine learning}
-Machine learning is a method to derive the expected result without programming explicitly. Basement of machine learning is linear regression. Neural network is a machine learning 
+\subsection{Machine learning models}
+Machine learning is a method to make computers learn from data without explicit programming. Basement of machine learning is linear regression. Neural network is a machine learning architecture. 
+Convolutional neural networks (CNNs) are a supervised machine learning method, which were originally developed for images (2D data). They consist of a neural network with additional layers called convolution layers and pooling layers. A convolution layer extracts patterns from an image by applying a 2D filter (kernel) whose values are learnable parameters. The pooling layer then reduces the spatial dimensions of the resulting feature maps, which helps retain the most important information while improving robustness against slight translations, rotations, and small distortions in the input image.
+Super-resolution CNNs (SRCNNs) represents the mapping function that takes the low-resolution image as the input and outputs the high-resolution one. It consists of three operations: patch extraction and representation, non-linear mapping and reconstruction. These three operators are modeled by the same form of a convolutional layer. (\cite{dong2014srcnn}).
+
 \subsection{Evaluation metrix}
+Loss function is an index of the model performance and it is calculated by the difference between the model result and target values. Loss function is also used to train the models by back error propagation. Two major ways are by mean square error (MSE) and binary cross entropy (BCE). Suitable adaptation of loss function is important for the effective training. MSE is for prediction and BCE is for classification task.
+
+\subsection{Experiment1: Hand written digits classification}
+\subsection{Experiment2: Image super resolution}
+\subsection{Experiment3: Emission downscaling}
 
 
 %使ったモデルの説明
@@ -136,7 +163,7 @@ Machine learning is a method to derive the expected result without programming e
 % sample image of handwritten, sr images
 % の説明
 % Cams, EAgrid
-Global emission inventories typically have coarse spatial resolutions, over 0.1$^¥circ$ ($¥sim10~km$). The Copernicus Atmosphere Monitoring Service global anthropogenic dataset (CAMS-GLOB-ANT; ¥cite{Kuenen2022}) is the current state of the art, covering the globe with a 0.1$^¥circ$ resolution.
+Global emission inventories typically have coarse spatial resolutions, over 0.1$^\circ$ ($\sim10~km$). The Copernicus Atmosphere Monitoring Service global anthropogenic dataset (CAMS-GLOB-ANT; \cite{Kuenen2022}) is the current state of the art, covering the globe with a 0.1$^\circ$ resolution.
 
 % Interpolation のdata を見せる
 % 

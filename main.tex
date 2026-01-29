@@ -83,57 +83,79 @@
 
 \section{Introduction}
 \subsection{Air pollution}
-People die due to air pollution. (health risks), WHO
-Air quality guidline, and current situation (figure from Fowler )
-Air pollutant (NOx, PM, ozone, SO2, CO, voc)
-    Emission sources of them
-    Chemistry of them (life time, ozone production etc..)
-Mitigation studies using CTM
+% People die due to air pollution. (health risks), WHO
+% history of air pollution 
+In the past, two big air pollution events which are London smog in 1952 and Los angels smog from 1940s to 1970s occurred. 
+% Air quality guidline, and current situation (figure from Fowler )
+WHO published air quality guidline. 
+Most of global population live in the air condition which is worse than AQG. 
+Figure which I use on the presentation 
+(different reason of air pollution , out door , in door ) 
+% Air pollutant (NOx, PM, ozone, SO2, CO, VOC, NH3)
+According to ¥cite{folberth2015megacities}, the 26 largest cities account for significant shares of global emissions of greenhouse gases, 12¥% of carbon dioxide (CO$_2$), 7¥% of methane (CH$_4$), and large fractions of major air pollutants such as nitrogen oxides (NO$_X$; 4.6¥%), sulphur dioxide (SO$_2$; 5.3¥%), Black Carbon (BC; 3.8¥%) and Volatile Organic Compounds (VOCs; 4.8¥%)
+Air pollutants can be grouped into two, primary and secondary pollutanst. Primary pollutants are emitted from source and secondary pollutants are chemically produced  from the primary pollutant. 
 
+NO$_X$ is a mixture of NO and NO$_2$. It is a primary pollutant and it mainly emitted from human activities. High-temperature combustion such as transportation, power plants and industry produces ozone from N$_2$ and O$_2$.  
+NO$_X$ has a short life time from one day to few days. 
+PM is classified two PM$_2.5$ and PM$_10$ by its particle size. 
+Example of VOCs are benzen, toluene and formaldehyde. 80\~90 \% of VOCs are emitted from natural sources such as trees, plants and soil. Anthropogenic emission sources are solvent (paint and cleaning product), fuel and gas. 
+
+%     Emission sources of them
+%     Chemistry of them (life time, ozone production etc..)
+% Mitigation studies using CTM
+	Chemistry transport models (CTMs) are the best tool for assessing air-pollution mitigation strategies. They simulate the emission, transport, and chemical transformation of key pollutants (e.g. NO$_X$, SO$_2$, CO, VOCs, and PM) to generate time-dependent, three-dimensional concentration and deposition fields (\cite{seinfeld2016atmospheric}). Pollutant lifetimes depend on meteorology (through wind, temperature, precipitation) and chemical interactions and are further complicated by secondary pollutant formation such as O$_3$, and secondary organic aerosols (SOA). By simulating these processes, CTMs reproduce atmospheric conditions and surface pollutant levels and enable scenario-based analyses (for example for emission reductions) to project air quality changes with potential mitigation strategies (\cite{seinfeld2016atmospheric}).
+
+% Complexty of chemistry (example of ozone)
 \subsection{Importance of emission inventories}
-for chemistry transport model
-the accuracy of CTM depends on emisson inventories
-Existing emission inventroes (cams, eagrid, german one, local one..)
+%for chemistry transport model
+%he accuracy of CTM depends on emisson inventories
+%Existing emission inventroes (cams, eagrid, german one, local one..)
 \subsection{Emission downscaling}
 \subsubsection{Rule-based downscaling}
-Ramacher et al.,2021
+%Ramacher et al.,2021
 \subsubsection{Machine learning-based downscaling}
-(ふわっとした説明のみ）
-My purpose of my project (entire of my master)
-Explain on preparatory project
-Hypotheses
+%(ふわっとした説明のみ）
+
+\subsection{Purposes}
+%My purpose of my project (entire of my master)
+In my master project, I aim to develop a downscale method of emission inventories by using machine learning. Implementation of auxiliary data (for example road networks, population distribution, land use and night-time lights) will be expected to improve the downscale accuracy. And city-scale analysis of downscaled emission inventories will enable to investigate the cause of air pollution.  
+% Explain on preparatory project
+In my preparatory project, I aim to make initial result of emission downscaling using machine learning. The project consists of 3 main tasks, air quality data manipulation, neural network development and diagnosis with the sample dataset, and initial test with actual air quality data manipulation.  
+
 
 \section{Methods}
-]subsection{ML}
-\subsection{Neural networks}
-\subsubsection{Convolutional neural network}
-\subsubsection{Super-resolution convolutional neural network}
-]subsection{Evaluation metrix, , RSE loss, cross entroppy}
+\subsection{Machine learning}
+Machine learning is a method to derive the expected result without programming explicitly. Basement of machine learning is linear regression. Neural network is a machine learning 
+\subsection{Evaluation metrix}
 
-使ったモデルの説明
-Experimental design 
-HOw many time of epoch, loss , SDG, or 
 
-sample image of handwritten, sr images
-の説明
-Cams, EAgrid
-Interpolation のdata を見せる
-ß
+%使ったモデルの説明
+% Experimental design 
+% HOw many time of epoch, loss , SDG, or 
+% 
+% sample image of handwritten, sr images
+% の説明
+% Cams, EAgrid
+Global emission inventories typically have coarse spatial resolutions, over 0.1$^¥circ$ ($¥sim10~km$). The Copernicus Atmosphere Monitoring Service global anthropogenic dataset (CAMS-GLOB-ANT; ¥cite{Kuenen2022}) is the current state of the art, covering the globe with a 0.1$^¥circ$ resolution.
+
+% Interpolation のdata を見せる
+% 
 \subsection{Regrid method}
 area weighted average
 
 \section{Preliminary Results}
-= 図を見たらわかることを述べる　（事実）
+% = 図を見たらわかることを述べる　（事実）
 \subsection{CNN with sample dataset}
-one example
--> diagnostics
+% one example
+% -> diagnostics
 \subsection{SRCNN with sample dataset}
 \subsection{SRCNN with cams and eagrid}
 \section{Discussion}
-discussion はresultからわかること
-Discussion とintroduction で述べたquestiomn とlink　していないいけない。
-discussionでは、複数のresult から考えたことを書く
-\section{Conclusion& Future Steps}
+% discussion はresultからわかること
+% Discussion とintroduction で述べたquestiomn とlink　していないいけない。
+% discussionでは、複数のresult から考えたことを書く
+\section{Conclusion}
+\section{Future Steps}
 
 
 

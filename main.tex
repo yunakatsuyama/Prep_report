@@ -149,8 +149,12 @@ Convolutional neural networks (CNNs) are a supervised machine learning method, w
 Super-resolution CNNs (SRCNNs) represents the mapping function that takes the low-resolution image as the input and outputs the high-resolution one. It consists of three operations: patch extraction and representation, non-linear mapping and reconstruction. These three operators are modeled by the same form of a convolutional layer. (\cite{dong2014srcnn}).
 
 % Other term for ML
+Optimizer (Adam, SGDs)
+Epoch
+Actuivate function
+back error propoagation
 
-\subsection{Evaluation metrix}
+%Evaluation matrix 
 Loss function is an index of the model performance and it is calculated by the difference between the model result and target values. Loss function is also used to train the models by back error propagation. Two major ways are by mean square error (MSE, Eq. \ref{eq:mse}) and  cross entropy (CE, Eq. \ref{eq:ce}). Suitable adaptation of loss function is important for the effective training. MSE is for prediction and BCE is for classification task.
 \begin{equation}
 \mathcal{L}_{\mathrm{MSE}}
@@ -175,7 +179,7 @@ Cross entropy is used for loss function.
 The network consists of three convolutional layer and one fully connected layer. The filter size was 3$\times$3 and number of filter in each convolutional layer was 32, 64 and 64. Stochastic gradient descent (SDG) was used for optimizer. As the number of dataset and the size of dataset were small. Batch learning was applied instead of mini-batch learning. 
 
 \subsection{Experiment2: Image super resolution}
-\subsection{Experiment3: Emission downscaling}
+\subsection{Experiment3: Emission super resolution}
 
 
 %使ったモデルの説明
@@ -194,12 +198,20 @@ area weighted average
 
 \section{Preliminary Results}
 % = 図を見たらわかることを述べる
+Fig. \ref{fig:cnn_cm} shows the recall of train and test data after 200 times of training (epoch).  
+\subsection{Result1: Hand written digits classification}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\columnwidth]{cnn_cm.jpg}
+    \caption{Confusion matrix of the classification. (a) is a train data. (b) is a test data. X axis shows predicted value and Y axis shows target value. Color bar shows recall. }
+    \label{fig:cnn_cm}
+\end{figure}
 
-\subsection{CNN with sample dataset}
 % one example
 % -> diagnostics
-\subsection{SRCNN with sample dataset}
-\subsection{SRCNN with cams and eagrid}
+\subsection{Image super resolution}
+\subsection{Emission super resolution}
+
 \section{Discussion}
 % discussion はresultからわかること
 % Discussion とintroduction で述べたquestiomn とlink　していないいけない。

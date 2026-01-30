@@ -170,7 +170,7 @@ y_{n,i} \log \left( \hat{y}_{n,i} \right)
 
 \subsection{Experiment1: Hand written digits classification}
 As a preliminary test of convolutional neural networks (CNNs), I performed handwritten digit classification. This experiment was conducted to construct a basic CNN model and evaluate its performance. For this work, the MNIST dataset was used, which is available via the GitHub repository by \cite{sunsided_minist}. The MNIST dataset consists of handwritten digits (0–9) and is commonly used for evaluating classification algorithms in machine learning. The implementation of the classification model was based on the example code by \cite{khattak2022_digit}. This code utilizes PyTorch to create and train a neural network on the MNIST dataset. Modifications were made to reproduce and validate the results within the scope of this work.
-Cross entropy is used for loss function.
+Cross entropy is used for loss function. 
 % network design
 The network consists of three convolutional layer and one fully connected layer. The filter size was 3$\times$3 and number of filter in each convolutional layer was 32, 64 and 64. Stochastic gradient descent (SDG) was used for optimizer. As the number of dataset and the size of dataset were small. Batch learning was applied instead of mini-batch learning. 
 
@@ -193,7 +193,8 @@ Global emission inventories typically have coarse spatial resolutions, over 0.1$
 area weighted average
 
 \section{Preliminary Results}
-% = 図を見たらわかることを述べる　（事実）
+% = 図を見たらわかることを述べる
+
 \subsection{CNN with sample dataset}
 % one example
 % -> diagnostics

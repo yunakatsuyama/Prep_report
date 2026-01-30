@@ -77,7 +77,7 @@
 		Air pollution remains a major global health and environmental challenge, particularly in rapidly urbanizing regions where high-resolution emission data are scarce. With my proposed project I aim to develop a generalized, transferable framework for downscaling coarse global emission inventories to urban-scale resolution (1 km) using conditional Generative Adversarial Networks (cGANs). By learning spatial patterns from auxiliary data (for example road networks, land use, and night-time lights) the model will enable emission downscaling in any region, even without region-specific training. The downscaled emissions will be integrated into a chemistry transport model (e.g., ICON-ART) to simulate urban air quality, identify key pollution sources, and evaluate mitigation strategies for three main target cities, Tokyo (Japan), Hamburg (Germany), and Bangkok (Thailand). The outcome will be an open-source, globally applicable tool that improves the accuracy of air quality modeling, benefiting both high- and low-income countries. My research will address a critical data gap, support evidence-based policy, and advance equitable access to environmental science.
 		
 \end{abstract}
-	
+\newpage	
 \tableofcontents
 \newpage
 
@@ -149,11 +149,12 @@ Convolutional neural networks (CNNs) are a supervised machine learning method, w
 Super-resolution CNNs (SRCNNs) represents the mapping function that takes the low-resolution image as the input and outputs the high-resolution one. It consists of three operations: patch extraction and representation, non-linear mapping and reconstruction. These three operators are modeled by the same form of a convolutional layer. (\cite{dong2014srcnn}).
 
 % Other term for ML
+train, validation and test
 Optimizer (Adam, SGDs)
 Epoch
 Actuivate function
 back error propoagation
-
+learning rate
 %Evaluation matrix 
 Loss function is an index of the model performance and it is calculated by the difference between the model result and target values. Loss function is also used to train the models by back error propagation. Two major ways are by mean square error (MSE, Eq. \ref{eq:mse}) and  cross entropy (CE, Eq. \ref{eq:ce}). Suitable adaptation of loss function is important for the effective training. MSE is for prediction and BCE is for classification task.
 \begin{equation}
@@ -176,7 +177,9 @@ y_{n,i} \log \left( \hat{y}_{n,i} \right)
 As a preliminary test of convolutional neural networks (CNNs), I performed handwritten digit classification. This experiment was conducted to construct a basic CNN model and evaluate its performance. For this work, the MNIST dataset was used, which is available via the GitHub repository by \cite{sunsided_minist}. The MNIST dataset consists of handwritten digits (0–9) and is commonly used for evaluating classification algorithms in machine learning. The implementation of the classification model was based on the example code by \cite{khattak2022_digit}. This code utilizes PyTorch to create and train a neural network on the MNIST dataset. Modifications were made to reproduce and validate the results within the scope of this work.
 Cross entropy is used for loss function. 
 % network design
-The network consists of three convolutional layer and one fully connected layer. The filter size was 3$\times$3 and number of filter in each convolutional layer was 32, 64 and 64. Stochastic gradient descent (SDG) was used for optimizer. As the number of dataset and the size of dataset were small. Batch learning was applied instead of mini-batch learning. 
+The network consists of three convolutional layer and one fully connected layer. The filter size was 3$\times$3 and number of filter in each convolutional layer was 32, 64 and 64. Stochastic gradient descent (SDG) was used for optimizer and the learning rate was 1e-4. As the number of dataset and the size of dataset were small. Batch learning was applied instead of mini-batch learning. 
+Train dataset 1000 and validation dataset was 100. In this experiment, test has not done.
+CPU and GPU
 
 \subsection{Experiment2: Image super resolution}
 \subsection{Experiment3: Emission super resolution}
@@ -198,14 +201,28 @@ area weighted average
 
 \section{Preliminary Results}
 % = 図を見たらわかることを述べる
-Fig. \ref{fig:cnn_cm} shows the recall of train and test data after 200 times of training (epoch).  
 \subsection{Result1: Hand written digits classification}
+Fig. \ref{fig:cnn_L} shows the variation of loss function during training. It suggested that after approxiamately 100 epoch, the loss of train and validation was converged. Validation loss was more that 7 times higher than train loss after 200 epoch.   
+Fig. \ref{fig:cnn_cm} shows the recall of train and test data after 200 times of training (epoch).  Recall is defined by the fraction of true positive to actual positive. Thus, the recall is calculated by average of true positive for 0\~9 digit. The value is corrected across predicted. While train data prediction 100\% correct with the target value(given label), it failed sometimes with the validation dataset. When the input image is 1, it is predicted as 1 every time, and when the input image is 9, approximately 80\% are predicted as 9, while 10\% predicted as 4 and 10\% predicted as 7.    
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\columnwidth]{cnn_cm.jpg}
+    \includegraphics[width=0.7\columnwidth]{cnn_L.png}
+    \caption{Loss function vs. epoch. }
+    \label{fig:cnn_L}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\columnwidth]{cnn_cm.png}
     \caption{Confusion matrix of the classification. (a) is a train data. (b) is a test data. X axis shows predicted value and Y axis shows target value. Color bar shows recall. }
     \label{fig:cnn_cm}
 \end{figure}
+
+Total recall (average of 0 \~ 9) of train data and validation data were 1.0 and 0.91. 
+The final loss of train and validation were 0.039 and 0.28. Runtime was approximately 6 min with CPU. 
+
+% もしスペースと時間的な余裕があるならhyper parameter test も入れる...
 
 % one example
 % -> diagnostics

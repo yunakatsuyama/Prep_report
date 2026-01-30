@@ -1,0 +1,613 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{dong2014srcnn}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a1ac63be385fbe46bf5992a2b93355f1}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cdede553c7d496dea2f52be5697d19e}{%
+           family={Loy},
+           familyi={L\bibinitperiod},
+           given={Chen\bibnamedelima Change},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b4b60e909e78633945f3f9c9dc83e01}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Kaiming},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e09524e32e7b51c169850f848787677}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Xiaoou},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a1c9251d8e66250cc20cdcec06683bd8}
+      \strng{fullhash}{902d7bff9f8ab29792aa65f1407830c1}
+      \strng{bibnamehash}{902d7bff9f8ab29792aa65f1407830c1}
+      \strng{authorbibnamehash}{902d7bff9f8ab29792aa65f1407830c1}
+      \strng{authornamehash}{a1c9251d8e66250cc20cdcec06683bd8}
+      \strng{authorfullhash}{902d7bff9f8ab29792aa65f1407830c1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+      \field{number}{2}
+      \field{title}{Learning a Deep Convolutional Network for Image Super-Resolution}
+      \field{volume}{38}
+      \field{year}{2016}
+      \field{pages}{295\bibrangedash 307}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TPAMI.2015.2439281
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/TPAMI.2015.2439281
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/TPAMI.2015.2439281
+      \endverb
+    \endentry
+    \entry{folberth2015megacities}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=62a9d2eef7c8ab5969a0d4cae1a1cc2f}{%
+           family={Folberth},
+           familyi={F\bibinitperiod},
+           given={Gerd\bibnamedelima A},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea800c482d4b94fbd6042e1d30767f64}{%
+           family={Butler},
+           familyi={B\bibinitperiod},
+           given={Timothy\bibnamedelima M},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22a5cdad9c5a06f2850a30bec87ce3b6}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={William\bibnamedelima J},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc88889a52105d04348db32bd939a0ad}{%
+           family={Rumbold},
+           familyi={R\bibinitperiod},
+           given={Steven\bibnamedelima T},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a68be6af566db5290aa3c773e31e7e74}
+      \strng{fullhash}{07a95c0dbaaeeebad0a892a96aa3f765}
+      \strng{bibnamehash}{07a95c0dbaaeeebad0a892a96aa3f765}
+      \strng{authorbibnamehash}{07a95c0dbaaeeebad0a892a96aa3f765}
+      \strng{authornamehash}{a68be6af566db5290aa3c773e31e7e74}
+      \strng{authorfullhash}{07a95c0dbaaeeebad0a892a96aa3f765}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental pollution}
+      \field{title}{Megacities and climate change--A brief overview}
+      \field{volume}{203}
+      \field{year}{2015}
+      \field{pages}{235\bibrangedash 242}
+      \range{pages}{8}
+    \endentry
+    \entry{khattak2022_digit}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=18d0e00eb56e2fafe87312861307e001}{%
+           family={Khattak},
+           familyi={K\bibinitperiod},
+           given={Rafay},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{18d0e00eb56e2fafe87312861307e001}
+      \strng{fullhash}{18d0e00eb56e2fafe87312861307e001}
+      \strng{bibnamehash}{18d0e00eb56e2fafe87312861307e001}
+      \strng{authorbibnamehash}{18d0e00eb56e2fafe87312861307e001}
+      \strng{authornamehash}{18d0e00eb56e2fafe87312861307e001}
+      \strng{authorfullhash}{18d0e00eb56e2fafe87312861307e001}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/RafayKhattak/Digit-Classification-Pytorch/blob/main/DigitClassificationPytorch.ipynb}}
+      \field{note}{Accessed: 30-01-2026}
+      \field{title}{Digit-Classification-Pytorch}
+      \field{year}{2022}
+    \endentry
+    \entry{Kuenen2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=d323fc31cb745c435b5e4b255c5b4fe3}{%
+           family={Kuenen},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b720e4e9739666e936107f0595dd921}{%
+           family={Dellaert},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f9a0f3dd437585927c2ad962f093ee5}{%
+           family={Visschedijk},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3eeb652de5fde0553cf0ebf9d77de2d1}{%
+           family={Jalkanen},
+           familyi={J\bibinitperiod},
+           given={J.-P.},
+           giveni={J\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16a237944e01efec32b53a16536e6f91}{%
+           family={Super},
+           familyi={S\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52ebad70a2fcf2fb401677a22aaf5891}{%
+           family={Denier\bibnamedelimb van\bibnamedelimb der\bibnamedelima Gon},
+           familyi={D\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99fdbb6f7a01cb9c141975a580ef5708}
+      \strng{fullhash}{3addbfbdbae84abdba7d1c5b64b60c67}
+      \strng{bibnamehash}{3addbfbdbae84abdba7d1c5b64b60c67}
+      \strng{authorbibnamehash}{3addbfbdbae84abdba7d1c5b64b60c67}
+      \strng{authornamehash}{99fdbb6f7a01cb9c141975a580ef5708}
+      \strng{authorfullhash}{3addbfbdbae84abdba7d1c5b64b60c67}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Earth System Science Data}
+      \field{title}{CAMS-REG-v4: a state-of-the-art high-resolution European emission inventory for air quality modelling}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{pages}{491\bibrangedash 515}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.5194/essd-14-491-2022
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5194/essd-14-491-2022
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5194/essd-14-491-2022
+      \endverb
+    \endentry
+    \entry{seinfeld2016atmospheric}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=890b0c564b5cd91f545445ff4355fcf6}{%
+           family={Seinfeld},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima H},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c23f09a86d22023f075cd5c6c24f9d6}{%
+           family={Pandis},
+           familyi={P\bibinitperiod},
+           given={Spyros\bibnamedelima N},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{7136718aad255566c90b495f8b810fa1}
+      \strng{fullhash}{7136718aad255566c90b495f8b810fa1}
+      \strng{bibnamehash}{7136718aad255566c90b495f8b810fa1}
+      \strng{authorbibnamehash}{7136718aad255566c90b495f8b810fa1}
+      \strng{authornamehash}{7136718aad255566c90b495f8b810fa1}
+      \strng{authorfullhash}{7136718aad255566c90b495f8b810fa1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Atmospheric chemistry and physics: from air pollution to climate change}
+      \field{year}{2016}
+    \endentry
+    \entry{WHO:2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization }},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{WHO Global Air Quality Guidelines}
+      \field{year}{2021}
+    \endentry
+    \entry{WHO:2024}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What are the health consequences of air pollution on populations?}
+      \field{urlday}{20}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.who.int/news/item/25-06-2024-what-are-health-consequences-of-air-pollution-on-populations
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/news/item/25-06-2024-what-are-health-consequences-of-air-pollution-on-populations
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{dong2014srcnn}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a1ac63be385fbe46bf5992a2b93355f1}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cdede553c7d496dea2f52be5697d19e}{%
+           family={Loy},
+           familyi={L\bibinitperiod},
+           given={Chen\bibnamedelima Change},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b4b60e909e78633945f3f9c9dc83e01}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Kaiming},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e09524e32e7b51c169850f848787677}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Xiaoou},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a1c9251d8e66250cc20cdcec06683bd8}
+      \strng{fullhash}{902d7bff9f8ab29792aa65f1407830c1}
+      \strng{bibnamehash}{902d7bff9f8ab29792aa65f1407830c1}
+      \strng{authorbibnamehash}{902d7bff9f8ab29792aa65f1407830c1}
+      \strng{authornamehash}{a1c9251d8e66250cc20cdcec06683bd8}
+      \strng{authorfullhash}{902d7bff9f8ab29792aa65f1407830c1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+      \field{number}{2}
+      \field{title}{Learning a Deep Convolutional Network for Image Super-Resolution}
+      \field{volume}{38}
+      \field{year}{2016}
+      \field{pages}{295\bibrangedash 307}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TPAMI.2015.2439281
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/TPAMI.2015.2439281
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/TPAMI.2015.2439281
+      \endverb
+    \endentry
+    \entry{folberth2015megacities}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=62a9d2eef7c8ab5969a0d4cae1a1cc2f}{%
+           family={Folberth},
+           familyi={F\bibinitperiod},
+           given={Gerd\bibnamedelima A},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea800c482d4b94fbd6042e1d30767f64}{%
+           family={Butler},
+           familyi={B\bibinitperiod},
+           given={Timothy\bibnamedelima M},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22a5cdad9c5a06f2850a30bec87ce3b6}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={William\bibnamedelima J},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc88889a52105d04348db32bd939a0ad}{%
+           family={Rumbold},
+           familyi={R\bibinitperiod},
+           given={Steven\bibnamedelima T},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a68be6af566db5290aa3c773e31e7e74}
+      \strng{fullhash}{07a95c0dbaaeeebad0a892a96aa3f765}
+      \strng{bibnamehash}{07a95c0dbaaeeebad0a892a96aa3f765}
+      \strng{authorbibnamehash}{07a95c0dbaaeeebad0a892a96aa3f765}
+      \strng{authornamehash}{a68be6af566db5290aa3c773e31e7e74}
+      \strng{authorfullhash}{07a95c0dbaaeeebad0a892a96aa3f765}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental pollution}
+      \field{title}{Megacities and climate change--A brief overview}
+      \field{volume}{203}
+      \field{year}{2015}
+      \field{pages}{235\bibrangedash 242}
+      \range{pages}{8}
+    \endentry
+    \entry{khattak2022_digit}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=18d0e00eb56e2fafe87312861307e001}{%
+           family={Khattak},
+           familyi={K\bibinitperiod},
+           given={Rafay},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{18d0e00eb56e2fafe87312861307e001}
+      \strng{fullhash}{18d0e00eb56e2fafe87312861307e001}
+      \strng{bibnamehash}{18d0e00eb56e2fafe87312861307e001}
+      \strng{authorbibnamehash}{18d0e00eb56e2fafe87312861307e001}
+      \strng{authornamehash}{18d0e00eb56e2fafe87312861307e001}
+      \strng{authorfullhash}{18d0e00eb56e2fafe87312861307e001}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/RafayKhattak/Digit-Classification-Pytorch/blob/main/DigitClassificationPytorch.ipynb}}
+      \field{note}{Accessed: 30-01-2026}
+      \field{title}{Digit-Classification-Pytorch}
+      \field{year}{2022}
+    \endentry
+    \entry{Kuenen2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=d323fc31cb745c435b5e4b255c5b4fe3}{%
+           family={Kuenen},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b720e4e9739666e936107f0595dd921}{%
+           family={Dellaert},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f9a0f3dd437585927c2ad962f093ee5}{%
+           family={Visschedijk},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3eeb652de5fde0553cf0ebf9d77de2d1}{%
+           family={Jalkanen},
+           familyi={J\bibinitperiod},
+           given={J.-P.},
+           giveni={J\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16a237944e01efec32b53a16536e6f91}{%
+           family={Super},
+           familyi={S\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52ebad70a2fcf2fb401677a22aaf5891}{%
+           family={Denier\bibnamedelimb van\bibnamedelimb der\bibnamedelima Gon},
+           familyi={D\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99fdbb6f7a01cb9c141975a580ef5708}
+      \strng{fullhash}{3addbfbdbae84abdba7d1c5b64b60c67}
+      \strng{bibnamehash}{3addbfbdbae84abdba7d1c5b64b60c67}
+      \strng{authorbibnamehash}{3addbfbdbae84abdba7d1c5b64b60c67}
+      \strng{authornamehash}{99fdbb6f7a01cb9c141975a580ef5708}
+      \strng{authorfullhash}{3addbfbdbae84abdba7d1c5b64b60c67}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Earth System Science Data}
+      \field{title}{CAMS-REG-v4: a state-of-the-art high-resolution European emission inventory for air quality modelling}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{pages}{491\bibrangedash 515}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.5194/essd-14-491-2022
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5194/essd-14-491-2022
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5194/essd-14-491-2022
+      \endverb
+    \endentry
+    \entry{seinfeld2016atmospheric}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=890b0c564b5cd91f545445ff4355fcf6}{%
+           family={Seinfeld},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima H},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c23f09a86d22023f075cd5c6c24f9d6}{%
+           family={Pandis},
+           familyi={P\bibinitperiod},
+           given={Spyros\bibnamedelima N},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{7136718aad255566c90b495f8b810fa1}
+      \strng{fullhash}{7136718aad255566c90b495f8b810fa1}
+      \strng{bibnamehash}{7136718aad255566c90b495f8b810fa1}
+      \strng{authorbibnamehash}{7136718aad255566c90b495f8b810fa1}
+      \strng{authornamehash}{7136718aad255566c90b495f8b810fa1}
+      \strng{authorfullhash}{7136718aad255566c90b495f8b810fa1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Atmospheric chemistry and physics: from air pollution to climate change}
+      \field{year}{2016}
+    \endentry
+    \entry{WHO:2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization }},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{WHO Global Air Quality Guidelines}
+      \field{year}{2021}
+    \endentry
+    \entry{WHO:2024}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What are the health consequences of air pollution on populations?}
+      \field{urlday}{20}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.who.int/news/item/25-06-2024-what-are-health-consequences-of-air-pollution-on-populations
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/news/item/25-06-2024-what-are-health-consequences-of-air-pollution-on-populations
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{Fowler:2020}
+  \missing{sunsided_minist}
+\endrefsection
+\endinput
+

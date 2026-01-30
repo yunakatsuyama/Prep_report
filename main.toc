@@ -1,0 +1,21 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Air pollution}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Importance of emission inventories}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Emission downscaling}{3}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Rule-based downscaling}{3}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Machine learning-based downscaling}{3}{subsubsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.4}Purposes}{3}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Methods}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Machine learning models}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Evaluation metrix}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Experiment1: Hand written digits classification}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Experiment2: Image super resolution}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Experiment3: Emission downscaling}{4}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Regrid method}{4}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Preliminary Results}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}CNN with sample dataset}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}SRCNN with sample dataset}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}SRCNN with cams and eagrid}{5}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Discussion}{5}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion}{5}{section.5}%
+\contentsline {section}{\numberline {6}Future Steps}{5}{section.6}%

@@ -148,10 +148,32 @@ Machine learning is a method to make computers learn from data without explicit 
 Convolutional neural networks (CNNs) are a supervised machine learning method, which were originally developed for images (2D data). They consist of a neural network with additional layers called convolution layers and pooling layers. A convolution layer extracts patterns from an image by applying a 2D filter (kernel) whose values are learnable parameters. The pooling layer then reduces the spatial dimensions of the resulting feature maps, which helps retain the most important information while improving robustness against slight translations, rotations, and small distortions in the input image.
 Super-resolution CNNs (SRCNNs) represents the mapping function that takes the low-resolution image as the input and outputs the high-resolution one. It consists of three operations: patch extraction and representation, non-linear mapping and reconstruction. These three operators are modeled by the same form of a convolutional layer. (\cite{dong2014srcnn}).
 
+% Other term for ML
+
 \subsection{Evaluation metrix}
-Loss function is an index of the model performance and it is calculated by the difference between the model result and target values. Loss function is also used to train the models by back error propagation. Two major ways are by mean square error (MSE) and binary cross entropy (BCE). Suitable adaptation of loss function is important for the effective training. MSE is for prediction and BCE is for classification task.
+Loss function is an index of the model performance and it is calculated by the difference between the model result and target values. Loss function is also used to train the models by back error propagation. Two major ways are by mean square error (MSE, Eq. \ref{eq:mse}) and  cross entropy (CE, Eq. \ref{eq:ce}). Suitable adaptation of loss function is important for the effective training. MSE is for prediction and BCE is for classification task.
+\begin{equation}
+\mathcal{L}_{\mathrm{MSE}}
+= \frac{1}{N} \sum_{n=1}^{N} \sum_{i=1}^{C}
+\left( y_{n,i} - \hat{y}_{n,i} \right)^2
+\label{eq:mse}
+\end{equation}
+
+\begin{equation}
+\mathcal{L}_{\mathrm{CE}}
+= - \frac{1}{N} \sum_{n=1}^{N} \sum_{i=1}^{C}
+y_{n,i} \log \left( \hat{y}_{n,i} \right)
+\label{eq:ce}
+\end{equation}
+
+
 
 \subsection{Experiment1: Hand written digits classification}
+As a preliminary test of convolutional neural networks (CNNs), I performed handwritten digit classification. This experiment was conducted to construct a basic CNN model and evaluate its performance. For this work, the MNIST dataset was used, which is available via the GitHub repository by \cite{sunsided_minist}. The MNIST dataset consists of handwritten digits (0–9) and is commonly used for evaluating classification algorithms in machine learning. The implementation of the classification model was based on the example code by \cite{khattak2022_digit}. This code utilizes PyTorch to create and train a neural network on the MNIST dataset. Modifications were made to reproduce and validate the results within the scope of this work.
+Cross entropy is used for loss function.
+% network design
+The network consists of three convolutional layer and one fully connected layer. The filter size was 3$\times$3 and number of filter in each convolutional layer was 32, 64 and 64. Stochastic gradient descent (SDG) was used for optimizer. As the number of dataset and the size of dataset were small. Batch learning was applied instead of mini-batch learning. 
+
 \subsection{Experiment2: Image super resolution}
 \subsection{Experiment3: Emission downscaling}
 
